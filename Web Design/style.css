@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #2196f3;
+  --primary-color-light: #6ec6ff;
+  --primary-color-dark: #0069c0;
+  --box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h2,
+h3 {
+  font-family: "Mukta", sans-serif;
+}
+
+p {
+  font-family: "Mukta", sans-serif;
+}
+
+/* Cart Panel */
+
+/* Navigation */
+
+nav {
+  background-color: var(--primary-color);
+}
+
+nav h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Mukta", sans-serif;
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__ul__li {
+  margin: 1rem 2rem;
+  position: relative;
+}
+
+.nav__ul__li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  background: var(--primary-color-light);
+  padding: 0.2rem 2rem;
+  border-radius: 10px;
+}
+
+.nav__ul__li:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.nav__ul__li a:hover {
+  color: var(--primary-color-dark);
+  transition: color 0.2s ease-in-out;
+}
+
+.nav__ul__li p {
+  position: fixed;
+  top: 100px;
+  right: 720px;
+  border-radius: 50%;
+  background: var(--primary-color-dark);
+  padding: 0.4rem;
+  width: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.nav__ul__li:hover p {
+  opacity: 0;
+}
