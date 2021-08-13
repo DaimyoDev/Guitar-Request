@@ -1,2 +1,2 @@
 # Guitar-Request
-A website using HTML, CSS, and Javascript. Check the web design folder for all the code.
+A website using HTML, CSS, and Javascript. If you want to see the final project click here: https://romantic-wilson-065819.netlify.app/
